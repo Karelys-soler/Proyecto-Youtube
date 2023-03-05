@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top: 0px;
+    text-decoration: none
+}
+
+body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 5% 95%;
+    background-color: rgb(14, 14, 14);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 64px;
+}
+
+aside a p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+aside a img{
+    margin-left: 3px;
+}
+
+#caja_1{
+    margin-top: 16px;
+    margin-bottom: 13px;
+    margin-right: 2px;
+}
+
+.Menu{
+    width: 34px;
+}
+
+.Inicio{
+    width: 26px;
+    height: 27px;
+}
+
+.Shorts{
+    width: 25px;
+    margin-top: 9px;
+}
+
+.Suscripciones{
+    width: 32px;
+    margin-top: 7px;
+}
+
+.Biblioteca{
+    width: 32px;
+    margin-top: 12px;
+}
+
+nav{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 19% 65% 16%;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+}
+
+.Logo img{
+    margin-top: 4px;
+    width: 120px;
+}
+
+.Perfil{
+    width: 32px;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 3px;
+}
+
+div input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 43px;
+    width: 540px;
+    height: 40px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(49, 49, 49);
+    border-right: none;
+    border-radius: 40px 0px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px 4px 0px 16px;
+    margin-bottom: 5px;
+}
+
+.lupa{
+    background-color: #FFFFFF14;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 0px 40px 40px 0px;
+    height: 40px;
+    width: 64px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-bottom: 5px;
+}
+
+#caja_busqueda{
+    display: flex;
+    align-items: center;
+}
+
+#input_busqueda{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+#Microfono img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33px;
+}
+
+#Microfono{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 100px;
+    border: 2px solid rgb(22, 22, 22);
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+#Acciones_usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 17px;
+    padding: 10px;
+}
+
+#Upload{
+    width: 27px;
+    height: 28px;
+    margin-right: 2px;
+}
+
+#Notificaciones{
+    width: 31px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+button{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    background-color: #FFFFFF1A;
+    color: #F1F1F1;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 33px;
+    border-radius: 8px;
+    border: none;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#Primer_button{
+    margin-left: 28px;
+    background-color: white;
+    color: black;
+}
+
+.pag_principal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 25px;
+    margin-right: 28px;
+}
+
+#Perfil_canal{
+    margin-left: 3px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.Perfil_canal{
+    width: 36px;
+    border-radius: 100%;
+}
+
+.img_video{
+    width: 265px;
+}
+
+.info_video{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.video_fila1{
+    margin-bottom: 19px;
+}
+
+#info_video{
+    margin-top: 4px;
+}
+
+section div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#titulo{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+#canal{
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+#estadisticas{
+    color: #aaa;
+}
+
+
+
+
+
+
+
+
+
